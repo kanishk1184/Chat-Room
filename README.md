@@ -50,7 +50,7 @@ cd Chat-Room
 ``` bash
 cd backend
 npm install
-npm start
+npx ts-node ./index.ts
 ```
 
 This starts the WebSocket server.
@@ -64,7 +64,7 @@ Open a new terminal and run:
 ``` bash
 cd frontend
 npm install
-npm start
+npm run dev
 ```
 
 The frontend will start on:
